@@ -7,7 +7,7 @@
 
 import Foundation
 
-class MusicianClass {
+class MusicianClass{
     
     var Name : String
     var Age : Int
@@ -17,7 +17,13 @@ class MusicianClass {
         self.Name = Name
         self.Age = Age
         self.Insturiment = Insturiment
-    } 
+    }
+    
+    func HappyBirthDay()  {
+        self.Age += 1
+        print("Happy Birthday \(self.Name)")
+        
+    }
     
     
 }

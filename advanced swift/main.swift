@@ -9,14 +9,24 @@ import Foundation
 
 // print("Hello, World!")
 
-let musicianEfe = MusicianClass(Name: "Efe", Age: 16, Insturiment: "Piano")
+// let musicianEfe = MusicianClass(Name: "Efe", Age: 16, Insturiment: "Piano")
 
 // print(musicianEfe.Insturiment)
 
-let mete = MusicianStruct(Name: "Mete", Age: 19, Instrument: "Bağlama")
+let rabia = MusicianClass(Name: "Rabia ", Age: 14, Insturiment: "Gitar")
+rabia.HappyBirthDay()
+print(rabia.Age)
 
-mete.sayHi(Lang: "tr", PlayInstrument: true)
+let efe = MusicianClass(Name: "Efe", Age: 16, Insturiment: "Piano")
+
+efe
 
 
-print(mete)
+
+// rabia.sayHi(Lang: "tr", PlayInstrument: true)
+
+
+
+
+//print(rabia)
 
